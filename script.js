@@ -1,7 +1,13 @@
+  const guess = document.getElementById("g");
+  guess.addEventListener("change", stuff);
 
+  function stuff() {
+    alert("stuff was clicked");
+  }
 
 function guessingGame(){
-  
+
+  /*
   const guessingDom = document.getElementById("guessing");
   const playingDom  = document.getElementById("playing");
   const guessDom    = document.getElementById("guess");
@@ -37,7 +43,7 @@ function guessingGame(){
   function getBest(count){
     alert("getBest");
   }
-  
+  */
 }
 
 
