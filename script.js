@@ -1,5 +1,5 @@
   const guess = document.getElementById("g");
-  guess.addEventListener("change", stuff);
+  guess.addEventListener("click", stuff);
 
   function stuff() {
     alert("stuff was clicked");
